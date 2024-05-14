@@ -1,0 +1,257 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+
+    <defs>
+            <linearGradient id="c" x1="246.0048" y1="45.3089" x2="228.4648" y2="175.649" gradientUnits="userSpaceOnUse"><stop offset=".4896" stop-color="#fff"/><stop offset=".7188" stop-color="#eaeaea"/><stop offset="1" stop-color="#ccc"/></linearGradient>
+            <linearGradient id="d" x1="272.8867" y1="79.8692" x2="256.8213" y2="199.2517" xlink:href="#c"/>
+            <linearGradient id="e" x1="208.5925" y1="1.8143" x2="178.9755" y2="221.8994" gradientUnits="userSpaceOnUse"><stop offset=".4244" stop-color="#fff"/><stop offset=".6829" stop-color="#eaeaea"/><stop offset="1" stop-color="#ccc"/></linearGradient>
+            <radialGradient id="f" cx="190.1954" cy="183.064" fx="190.1954" fy="183.064" r="59.1347" gradientTransform="translate(0 2.1619) scale(1 .9882)" gradientUnits="userSpaceOnUse"><stop offset=".7161" stop-color="#fcee21"/><stop offset="1" stop-color="#fbb03b"/></radialGradient>
+    </defs>
+        
+    <style>
+
+        .h{fill:#fff;}
+        .h,.i,.j,.k,.l,.m,.n{stroke-miterlimit:10;}
+        .h,.i,.j,.k,.m{stroke:#b3b3b3;  cursor: pointer;}
+        .h,.i,.j,.k,.m,.n{stroke-width:2px;}
+        .i{fill:rgb(240, 240, 240)}
+        .j,.n{fill:#f2f2f2e0;}
+        .k{fill:rgb(237, 245, 248);}
+        .l{fill:rgb(236, 181, 0); stroke:#f7c800;stroke-width:3px;}
+        .m{fill:rgb(241, 241, 241);}
+        .n{stroke:#999; cursor: pointer;}
+        .s{stroke: green; fill: none; stroke-width: 4px;}
+        .t{fill: rgb(0, 163, 0); stroke-width: 2px; stroke: green;}
+        .u{stroke: green; fill:none; stroke-width: 2px;}
+
+        body {background-color: rgb(48, 48, 48);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Horizontal alignment */
+            align-items: center; /* Vertical alignment */
+            height: 100vh;}
+
+        .container {
+            padding-top: 900px;
+            text-align: center; /* Center align the content within the container */
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+        }
+
+        .box {
+            width: 500px;
+            height: 500px;
+            margin: 0px;
+            display: inline-block;
+            background: none;
+        }
+
+        .text {
+            z-index: 100; 
+            text-align: center; font-size: 50px; font-family: serif; font-weight: 500; color: rgb(234, 226, 196);
+            margin-top: -10px;
+        }
+
+        .gumb {
+            margin-top: -425px; cursor:pointer; background-color: #f7c800; border-radius: 5px; font-family: sans-serif;
+            padding: 5px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+<div class="container">
+    <div class="box">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368.5898 425">
+    <g id="b">
+
+        <path class="j" onclick="myFunction()" d="M155.4507,167.1777c-.0837.089-.1708.1777-.2616.2661-14.8715-15.5908-34.1623-27.4506-50.2712-41.8155-20.6201-18.3878-30.0093-43.5327-39.4929-68.9967,5.6229,3.4815,11.1261,7.2307,16.3709,11.2582,9.3596,7.1871,15.115,16.2455,22.0222,25.7294,9.5898,13.167,19.4755,26.1184,29.6475,38.841,5.2803,6.6043,10.377,13.7593,16.2548,19.8476,3.541,3.6677,10.7357,9.5507,5.7303,14.8699Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="n" onclick="myFunction()" d="M145.3973,221.54c-2.6,2.5166-4.7647,4.8354-5.9444,5.8961-11.7468,10.5629-24.7595,20.1645-35.9675,31.5001-12.2529,12.3924-20.2058,26.4755-25.6165,42.9918-1.6908,5.1613-3.2471,10.4024-4.4441,15.7035,0,0,23.9999-15.9999,30.9999-24.9999,10.9121-14.0297,20.8517-28.7875,31.8566-42.7468,4.6594-5.9103,10.0051-11.3392,15.075-16.9057,2.8204-3.0966,7.1688-6.5483,9.0692-10.3491,1.0559-2.1101,4.9205-7.441,2.3179-9.52-4.1466-3.3118-11.7534,3.0165-17.3463,8.43Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="j" onclick="myFunction()" d="M178.4863,226.3893c.3335-7.0849-4.8851-14.1709-12.0353-7.4345-9.6345,9.0769-13.5573,23.2639-18.5073,36.0338-8.3128,21.4453-16.907,41.5549-23.5958,61.9236-3.3339,10.1523-2.413,22.3102-4.945,32.687,0,0,16.5945-21.7417,21.4054-30.8996,7.3877-14.0627,12.1972-30.2259,19.2256-44.4812,6.4881-13.1595,18.0358-38.9798,18.4524-47.8292Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="j" onclick="myFunction()" d="M333.8484,291.6916s-18.1692-4.0054-39.9694-19.1296c-14.9887-10.3986-29.9031-20.8995-44.2274-31.9954-12.1149-9.3845-25.8678-19.0877-31.7882-33.2689-.2075-.4969-.3967-1.076-.0882-1.6196.361-.6361,1.2198-.9107,1.9612-1.0422,3.696-.6556,7.9752.2239,11.1132,1.3409,7.2726,2.5887,12.9853,7.315,19.3537,11.0741,4.7496,2.8036,19.6798,11.9703,41.5236,27.3612,24.1526,17.0177,41.9516,46.9944,42.1214,47.2795Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="n" onclick="myFunction()" d="M229.8471,198.9174c1.1087-1.5248,13.7449.0866,15.5592.1164,7.5511.1239,15.1441-.1052,22.7141.1677,32.1831,1.1602,65.254,9.092,95.8045,19.5056-5.0332-1.7156-13.1658.2215-18.4574.5756-9.7731.654-19.5112,1.0498-29.3078.7437-19.209-.6002-37.8385-3.7512-56.5458-8.044-8.6479-1.9845-22.4605-1.4552-29.7668-6.6719-3.0592-2.1842-.0026-6.3895,0-6.393Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="n" onclick="myFunction()" d="M229.2145,185.4338c-5.8047-5.8505,14.1424-12.6475,17.7779-13.8335,8.9078-2.906,18.2492-4.2747,27.5588-5.0802,12.4073-1.0703,24.8915-1.2243,37.3213-.4569,12.4471.7684,24.6973,3.1824,37.1811,3.3042,4.8928.0478,9.7082.8642,14.4989,1.0308-6.524,2.4527-13.1592,4.6918-19.6205,7.2703-9.2792,3.7029-18.7419,5.194-28.6319,6.2918-10.3922,1.1536-20.7896,2.2679-31.2048,3.1942-10.1576.9033-20.7572,2.388-30.9608,1.9039-11.7656-.5582-17.6952,2.6452-23.9201-3.6244Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="n" onclick="myFunction()" d="M250.8931,91.1088c14.7575-14.977,31.1955-28.389,48.63-40.3627-1.5859,20.6093-18.883,40.8411-32.1048,55.3866-17.4223,19.1666-33.5003,39.7901-57.1639,51.6146-1.6529.8259-3.9421,1.4916-5.1078.058-1.0003-1.2303-.3369-3.0526.3797-4.4672,11.7726-23.2406,27.3121-43.9062,45.3668-62.2293Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M300.0386,220.0897c20.708,8.1966,40.8002,18.619,60.0633,30.5631-19.5022,6.6278-46.2084-1.9212-65.7863-8.8193-25.7979-9.0897-52.2746-16.3178-74.3944-34.2789-1.5451-1.2546-3.2501-3.1811-2.5064-4.8627.6382-1.443,2.614-1.5286,4.2445-1.4022,26.7884,2.0758,53.0448,8.7722,78.3794,18.8001Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="j" onclick="myFunction()" d="M286.6809,134.3653c19.3802-7.0909,39.7059-12.2622,60.3958-15.8697-9.4095,16.6053-33.1571,27.1491-50.9551,34.442-23.4524,9.6098-46.2272,20.9262-72.6021,22.1308-1.8423.0841-4.2094-.1981-4.7311-1.8199-.4478-1.3918.8666-2.6687,2.0727-3.5861,19.815-15.0735,42.1097-26.6219,65.8198-35.2971Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="n" onclick="myFunction()" d="M201.1831,295.3151c-1.4135,22.223-5.1339,44.5463-10.5572,66.55-12.3152-16.5068-12.4153-44.5436-11.8885-65.2915.6942-27.3395-.5916-54.751,9.6743-81.3264.7171-1.8563,2.024-4.0718,3.8526-3.8828,1.5693.1622,2.2596,2.0151,2.642,3.6049,6.2825,26.1197,8.006,53.1578,6.2767,80.3458Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M131.39,287.596c-12.6845,17.9578-27.3608,34.8065-43.3039,50.5056-1.8179-20.2523,12.601-43.8823,23.7767-61.0582,14.7262-22.6327,27.8246-46.3501,50.2052-63.3889,1.5633-1.1902,3.8084-2.3773,5.2485-1.2724,1.2358.9482.8579,2.8636.3571,4.3983-8.2281,25.2159-20.7651,48.8457-36.2835,70.8155Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="n" onclick="myFunction()" d="M78.481,211.7984c-20.4201,2.9817-41.3737,3.891-62.3642,3.195,12.6037-14.3325,38.0046-19.8018,56.9172-23.3044,24.9211-4.6154,49.5276-11.0398,75.5922-6.8301,1.8206.294,4.0801,1.0539,4.2595,2.7482.1539,1.4539-1.3936,2.4353-2.7617,3.087-22.4768,10.707-46.6607,17.4566-71.6431,21.1044Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="n" onclick="myFunction()" d="M219.9871,165.6086c12.1773-16.3224,31.1985-26.6426,47.7316-37.8512,19.9929-13.5542,41.8928-23.3004,63.7707-33.3186-25.8115,36.4646-67.8607,63.7681-109.8403,78.0569-1.8588.6327-4.7358.6335-4.8971-1.3235-.0571-.6927.3241-1.3381.7015-1.9219.8063-1.2472,1.652-2.4603,2.5335-3.6419Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="j" onclick="myFunction()" d="M145.8902,212.8304c-12.5387,16.0465-31.7855,25.9395-48.5647,36.7762-20.2905,13.1045-42.4025,22.3594-64.4985,31.8867,26.6191-35.8793,69.2673-62.2374,111.5553-75.5856,1.8725-.5911,4.7487-.5276,4.8663,1.4325.0416.6938-.3539,1.3306-.7442,1.9057-.8339,1.2289-1.7065,2.4228-2.6142,3.5844Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="n" onclick="myFunction()" d="M168.1973,152.8633c-15.4726-15.8097-23.2798-37.7849-32.479-57.2868-11.1243-23.583-17.8103-48.5012-24.7934-73.4449,34.8093,33.8453,56.9082,83.2294,64.9878,130.2074.3578,2.0802-.1434,5.1243-2.2814,4.9443-.7568-.0637-1.3861-.5827-1.9496-1.0866-1.2039-1.0766-2.3642-2.1888-3.4843-3.3333Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="n" onclick="myFunction()" d="M150.2326,172.8881c-20.3385,1.0261-40.4167-7.047-59.593-12.6369-23.1892-6.7597-44.6608-17.4165-66.3278-27.8828,44.5486-3.3655,92.3929,11.619,130.1667,34.8481,1.6726,1.0286,3.5075,3.2444,2.1028,4.6164-.4972.4857-1.2375.6035-1.9278.685-1.4749.1741-2.9486.296-4.421.3703Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M285.2032,155.7418c36.4639-7.5392,73.2355-13.9985,73.8416-13.9436,0,0-11.6668,16.1335-37.2375,22.9871-17.5811,4.7122-35.2047,9.3237-52.9819,13.2443-15.0352,3.3159-31.3032,7.558-46.7309,4.3514-.5406-.1124-1.1397-.2781-1.4158-.7563-.3231-.5595-.0488-1.2674.2769-1.8254,1.6238-2.7817,4.8837-5.1781,7.6719-6.698,6.4616-3.5224,13.8049-4.9345,20.7198-7.2681,11.7486-3.965,23.7043-7.5789,35.8558-10.0913Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="n" onclick="myFunction()" d="M227.5702,88.0125c11.2257-36.4242,21.3556-73.2591,21.3547-73.8809,0,0-17.8756,10.4128-27.3786,35.8138-6.5338,17.4645-12.9666,34.9813-18.6945,52.7169-4.8444,15-10.7673,31.1709-8.8581,47.1604.0669.5603.184,1.1849.6562,1.5092.5525.3794,1.3149.1643,1.9259-.1167,3.0462-1.4008,5.8428-4.5013,7.6832-7.201,4.2653-6.2568,6.4154-13.6016,9.4852-20.4273,5.2157-11.5969,10.0851-23.4362,13.8261-35.5745Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="m" onclick="myFunction()" d="M279.4108,28.11s-2.3859,18.7734-15.5863,41.7245c-9.076,15.78-18.2611,31.4882-28.0953,46.6165-8.3173,12.7949-16.8073,27.2806-30.4851,33.9295-.4793.233-1.0425.4507-1.6148.1572-.6696-.3435-1.0217-1.2117-1.2198-1.9655-.9879-3.7581-.4899-8.177.3481-11.437,1.9423-7.5552,6.1659-13.6009,9.3619-20.2784,2.3836-4.9801,10.2306-20.6493,23.6944-43.6561,14.8869-25.4385,43.3265-44.905,43.597-45.0907Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="j" onclick="myFunction()" d="M178.0369,2.5155s8.3491,16.9965,10.1587,43.9406c1.2441,18.5253,2.3597,37.0566,2.6273,55.4962.2263,15.5954,1.2389,32.6963-6.2832,46.4094-.2636.4805-.6041.9988-1.2324,1.0984-.7352.1166-1.4989-.3922-2.0742-.8984-2.8681-2.5239-4.8853-6.4863-5.989-9.6918-2.558-7.4289-2.4252-14.9739-3.4781-22.4266-.7852-5.5583-2.9722-23.255-4.5972-50.4032-1.7968-30.0176,10.7492-63.2085,10.8682-63.5246Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M216.6684,189.5361c1.0265-.7721,2.4234-1.1243,3.7912-1.3402,30.4408-4.8055,60.3711-.7618,90.8375,1.3932,6.3327.448,12.7657.8501,19.0799-.0715,8.7489-1.2769,32.0831,1.3257,37.6928,2.8179-.9946-.2645-3.6077.9136-4.7394,1.1944-2.1446.5321-4.2699,1.1594-6.4044,1.7317-4.1108,1.1022-8.2267,2.1859-12.3563,3.2155-21.0511,5.2487-42.7981,7.5751-64.4814,7.2545-19.8632-.2937-43.4302-1.1559-62.0916-8.6267-1.9816-.7933-3.1929-2.9601-2.8342-5.0638.1941-1.1388.7495-1.936,1.5061-2.505Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="i" onclick="myFunction()" d="M207.8383,164.0624c.2496-1.4792,1.094-2.7956,2.0141-3.956,20.4766-25.8261,46.948-42.4757,72.476-61.3788,5.3063-3.9292,10.6583-7.9734,14.96-13.2553,5.9605-7.3186,26.2006-20.8472,31.6927-23.2356-.9737.4235-2.1781,3.4039-2.8655,4.4659-1.3027,2.0125-2.5214,4.1066-3.7871,6.1521-2.4376,3.9396-4.8926,7.8642-7.3974,11.7445-12.7686,19.7799-28.1971,37.1267-45.4888,51.79-15.8402,13.4325-35.0055,28.8573-55.0881,34.3027-2.1325.5782-4.6517-.7454-5.8902-3.0909-.6704-1.2697-.8097-2.4483-.6258-3.5386Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M163.1482,209.2252c-.2629,1.2573-1.0811,2.443-1.9672,3.507-19.7215,23.6812-44.8927,40.372-69.222,58.8362-5.0571,3.838-10.1593,7.7765-14.2996,12.632-5.7368,6.7277-24.9983,20.1536-30.2001,22.7298.9223-.4567,2.1104-3.0653,2.7763-4.0225,1.2618-1.8139,2.4464-3.6867,3.674-5.5242,2.3644-3.5388,4.7449-7.067,7.1713-10.5636,12.3688-17.8245,27.1875-33.9102,43.7032-47.9637,15.1294-12.8738,33.4186-27.7618,52.3758-34.4466,2.013-.7098,4.3522.1209,5.4694,1.9392.6048.9843.7127,1.9498.5189,2.8765Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="j" onclick="myFunction()" d="M216.3224,210.6344c3.3791-6.2513,15.1292,3.8164,23.9039,9.9647,8.7747,6.1483,26.1371,32.9265,31.1023,40.2326s15.9419,38.8298,19.6891,42.4992,4.9184,10.9265,4.9184,10.9265c0,0-23.7948-18.4122-27.5421-22.0816-3.7472-3.6694-39.8147-51.208-44.7486-60.9277-4.934-9.7197-11.2105-13.4217-7.323-20.6135Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M195.7118,217.6965c5.2389-7.8209,11.1796-6.2585,14.5335,0s12.2976,37.5509,11.1796,56.3264c-1.118,18.7755,0,35.0475,0,50.0679v30.0407s-11.1796-22.5306-12.2976-31.2924c-1.118-8.7619-6.7078-30.0407-6.7078-38.8026s-4.4718-22.5306-6.7078-36.2992c-2.2359-13.7687-3.3539-25.034,0-30.0407Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M174.9929,214.2728c4.9757-5.2707,14.5147-1.9919,12.643,18.2403-1.8717,20.2323-1.8711,49.4173-11.8847,79.4947-7.3643,22.1199-24.0809,49.851-24.0809,49.851,0,0,3.4574-32.8618,6.1523-45.4496,2.6949-12.5878,5.2814-51.8269,5.3767-54.3612s4.8525-40.4228,11.7935-47.7753Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M202.9659,217.9362c1.4117-6.748,10.7755-8.8353,19.3231,8.4972,8.5476,17.3326,23.0666,40.9915,29.9114,70.3555,5.0339,21.5953,5.2777,52.3916,5.2777,52.3916,0,0-13.5448-28.3597-17.6222-39.9048-4.0773-11.5451-21.5007-44.6414-22.6841-46.7432s-16.1752-35.1831-14.206-44.5964Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="k" onclick="myFunction()" d="M187.7234,147.6698c-4.803-7.7736-5.554-20.0516-5.4186-29.2527.1665-11.3109,1.922-22.3565,3.5287-33.3527,2.5726-17.6074,6.6121-34.7724,12.044-51.0853,2.5413-7.6317,5.6385-14.7089,9.1908-21.5805,1.4315-2.7692,2.9164-5.4905,4.4497-8.162.4618-.8046,1.8855-2.4112,2.0242-3.4388-2.3605,17.4907-1.5579,36.0433-2.6601,53.8302-1.2724,20.5327-2.6167,41.846-6.4406,61.7354-2.0426,10.6241-1.5773,24.8331-8.0101,32.8503-1.1452,1.4272-2.6357,2.6043-4.2485,2.407-1.3875-.1697-2.626-1.3321-3.6045-2.6756-.2984-.4098-.5832-.8353-.8551-1.2753Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M169.4932,148.3642c1.4245,2.0496,3.4046,3.8381,5.5844,3.7602,6.4142-.2303,6.4674-10.0794,5.8385-15.4479-1.9369-16.534-5.1954-32.8852-9.1122-49.0037-3.6919-15.1931-6.9874-30.9396-12.9245-45.277-3.9154-9.4554-6.258-23.0934-12.1443-31.1472,0,0-.6728,10.5857-.9393,16.4546-.7016,15.4538,3.321,29.8016,6.3714,44.7616,2.9358,14.3984,5.8721,28.7966,8.8083,43.1949,2.14,10.494,2.3977,23.635,8.3952,32.5254.0404.0599.0813.1196.1227.1791Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M158.4866,160.3319c5.7771,4.2812,14.3331,3.7689,12.2592-6.2018-2.7945-13.4349-12.7341-24.8183-20.9708-36.2898-13.8324-19.2648-26.4035-38.0199-40.1454-55.2757-6.8493-8.6008-17.5101-14.6581-24.949-22.693,0,0,9.9373,26.5828,15.2133,35.8985,8.1017,14.305,19.2555,27.5678,27.6985,41.6712,7.794,13.0192,23.6783,37.5431,30.8942,42.8906Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M159.4341,201.3634c.5074-.6441,1.0077-1.3224,1.2275-2.1123.6895-2.4774-2.2261-4.2311-4.0238-5.2052-6.4007-3.4686-25.4693-1.1471-36.7527,1.7998s-59.5365,25.468-71.4602,34.786c-11.9237,9.318-27.6208,24.9464-27.6208,24.9464,0,0,10.5689-3.6466,20.4382-6.5787,9.8693-2.9321,34.3361-11.7349,48.5875-19.6026,13.5986-7.5074,68.212-26.266,69.6043-28.0333Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M153.4188,187.8286c4.6723-.9532,7.9282-5.1731,4.5254-10.0666-3.4557-4.9695-15.0599-6.806-20.5915-8.157-12.0782-2.95-23.9974-3.0405-36.3938-3.2543-13.8053-.2381-27.593-.8474-41.4003-1.043-19.2828-.2732-36.465,4.3736-55.18,8.8833,0,0,11.5173,2.6284,17.2792,3.9433,12.3139,2.8102,25.0384,3.0154,37.6545,3.6153,14.7266.7002,29.124,2.4059,43.9119,2.7901,8.7261.2267,17.4412.678,26.1331,1.3532,7.3059.5676,16.8279,3.409,24.0616,1.9357Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path class="h" onclick="myFunction()" d="M105.6055,126.2116c10.6219,6.8815,21.4931,13.3952,31.9256,20.5439,4.0899,2.8025,8.3568,5.585,12.8495,7.6802,2.4377,1.1368,4.9271,2.3687,6.6883,4.4024,5.6291,6.501-1.2712,12.0481-8.1429,10.8664-7.9512-1.3674-15.5253-5.6072-22.7802-8.9164-22.0537-10.0594-41.289-24.2266-55.926-43.7648-8.0746-10.7788-16.6546-21.3975-24.4446-32.4098-1.2913-1.8255-2.7341-4.6395-2.7341-4.6394,8.8773,4.9543,18.3999,9.4778,26.7248,15.3083,10.6829,7.482,17.9086,18.8921,28.6809,26.1934,2.3682,1.6051,4.7571,3.1799,7.1588,4.7358Z">
+            <animate attributeType="XML" attributeName="opacity" from="1" to="0" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+            <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" dur="0.5s" begin="click" fill="freeze" repeatcount="1"/>
+        </path>
+        <path id="g" class="l" d="M179.8074,130.1528c9.8073-1.8841,19.0661-.9456,27.3002,2.0792,28.4392,10.447,44.6569,45.7808,29.0462,75.6674-19.0496,36.4704-75.251,40.4845-92.9824,1.2491-13.489-29.848,1.0635-70.3453,34.3304-78.4923.7657-.1875,1.5344-.3552,2.3056-.5033Z">
+        </path>
+    </g>
+        </svg>
+
+    </div> 
+
+    <div class="box">
+        <p class="text" id="myDIV"></p>
+    </div>
+
+    <div class="box">
+        <p class="gumb" onclick="openRandomHTMLFile()">OTVORI NOVI CVIJET</p>
+    </div>
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "Voli me...") {
+    x.innerHTML = "Ne voli me...";
+  } else {
+    x.innerHTML = "Voli me...";
+  }
+}
+</script>
+
+<script>
+function openRandomHTMLFile() {
+    // List of HTML files on your desktop
+    var htmlFiles = [
+        "roza.html",
+        "siva.html",
+        // Add more file names as needed
+    ];
+
+    // Randomly select an HTML file from the list
+    var randomIndex = Math.floor(Math.random() * htmlFiles.length);
+    var randomHTMLFile = htmlFiles[randomIndex];
+
+    // Open the selected HTML file in the same tab
+    window.location.href = randomHTMLFile;
+}
+</script>
+    
+
+</body>
+</html> 
